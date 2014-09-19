@@ -1,0 +1,53 @@
+.item-container {
+	position: relative;
+	margin: 0 50px;
+	min-height: 350px;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #34495e;
+}
+
+.item-condition {
+	margin-top: 24px;
+	font-size: 12px;
+	font-style: italic;
+	color: #7f8c8d;
+}
+
+[class*='card-'] {
+	margin: 0;
+	padding: 6px 12px;
+}
+
+em {
+	font-style: none;
+}
+
+.inlined {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+.card-name, .card-set--name {
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+
+.card-name {
+	font-size: 36px;
+}
+
+.item--bg {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	height: 300px;
+	width: auto;
+
+	opacity: 0.7;
+}
